@@ -1,0 +1,57 @@
+.Nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(10, 69, 69);
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+
+    width:40%;
+    
+}
+.mobile{
+    display: none;
+}
+.logo{
+    width: 30%;
+    /* //margin-left: -100px; */
+    border-radius: 20px;
+}
+/* .mobile:hover{
+
+    
+} */
+.Link{
+    color: rgb(186, 87, 87);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+.Link:hover{
+    background-color: brown;
+    font-size: 1.3em;
+}
+@media screen and (max-width:700px){
+    .links{
+         display: none;  
+    }
+    .mobile{
+        display: unset;
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(176, 176, 92);
+        height: 80vh;
+        align-items: center;
+        justify-content: space-evenly;
+        top: 2em ;
+
+    }
+
+ 
+}
